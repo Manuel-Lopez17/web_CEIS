@@ -1869,7 +1869,7 @@ min-height: max-content;
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
-    background-image: url("/images/CEIS_img/Hero_1.svg");
+    /* background-image: url("/images/CEIS_img/Hero_1.svg"); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -4112,7 +4112,14 @@ footer .row {
     padding-right: 6px;
 }
 
-
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-container >div{
+    flex: 50%; margin: 0 auto;
+}
 /* ---------------------------------------------------------------
  * ## footer bottom
  * --------------------------------------------------------------- */
@@ -4146,7 +4153,14 @@ footer .row {
     
 }
 @media only screen and (max-width: 800px){
-    
+    .footer-container >div {
+        flex: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-social li {
+        width: 30px;
+    }
 }
 @media only screen and (max-width: 700px){
     
@@ -4155,7 +4169,9 @@ footer .row {
     
 }
 @media only screen and (max-width: 500px){
-    
+    .footer-logo {
+        background-size: 300px auto;
+    }
 }
 @media only screen and (max-width: 450px){
     
