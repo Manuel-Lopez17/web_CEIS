@@ -2528,10 +2528,11 @@ html.no-csstransitions .home-content__main {
     grid-area: i;
     margin: auto;
 }
- .elements_container h6 {
+.elements_container h6 {
     grid-area: t;
     margin: auto auto auto 0;
     text-align: left;
+    text-transform: none;
 }
  .elements_container p{
 grid-area: p;
@@ -2973,8 +2974,9 @@ text-align: left;
     background: #111111;
 }
 
-.works_header{
+.works_header {
     text-align: left;
+    max-width: 70%;
 }
 
 .works_content_container {
