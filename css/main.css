@@ -218,7 +218,6 @@ p img {
 }
 
 p.lead {
-    font-family: "montserrat-regular", sans-serif;
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.8;
@@ -272,7 +271,7 @@ blockquote:before {
 }
 
 blockquote p {
-    font-family: "montserrat-regular", sans-serif;
+
     padding: 0;
     font-size: 2.1rem;
     line-height: 1.857;
@@ -281,7 +280,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    font-family: "montserrat-regular", sans-serif;
+
     font-size: 1.4rem;
     font-style: normal;
     line-height: 1.5;
@@ -469,7 +468,7 @@ th, td {
 
 th {
     color: #000000;
-    font-family: "montserrat-bold", sans-serif;
+
 }
 
 td {
@@ -655,7 +654,6 @@ select {
     border: 0;
     outline: none;
     color: #333333;
-    font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
     line-height: 3rem;
     max-width: 100%;
@@ -739,7 +737,7 @@ select:focus {
 }
 
 label, legend {
-    font-family: "montserrat-regular", sans-serif;
+
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: .9rem;
@@ -755,7 +753,7 @@ input[type="checkbox"], input[type="radio"] {
 label > .label-text {
     display: inline-block;
     margin-left: 1rem;
-    font-family: "montserrat-regular", sans-serif;
+
     font-weight: normal;
     line-height: inherit;
 }
@@ -945,7 +943,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     margin-bottom: 3rem;
     border-radius: 3px;
-    font-family: "montserrat-regular", sans-serif;
+
     font-size: 1.5rem;
     line-height: 1.6;
 }
@@ -994,7 +992,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 1.5rem .6rem 0 0;
     font-size: 8.4rem;
-    font-family: "montserrat-regular", sans-serif;
+
     font-weight: bold;
     line-height: 6rem;
     text-indent: 0;
@@ -1132,7 +1130,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
     display: inline-block;
     font-size: 2.5rem;
-    font-family: "montserrat-regular", sans-serif;
+
     font-weight: bold;
     border: none;
     color: #000000;
@@ -1146,7 +1144,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     margin: .6rem 0 0 0;
     font-size: 1.4rem;
-    font-family: "montserrat-regular", sans-serif;
+
     color: #828282;
 }
 
@@ -1172,7 +1170,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: -3rem;
-    font-family: "montserrat-bold", sans-serif;
+
     color: #000000;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -1191,7 +1189,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     right: 0;
     top: -3.6rem;
     display: block;
-    font-family: "montserrat-regular", sans-serif;
+
     color: #FFFFFF;
     font-size: 1.1rem;
     line-height: 1;
@@ -1321,7 +1319,7 @@ min-height: max-content;
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
+
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -1553,7 +1551,7 @@ min-height: max-content;
 .header-nav {
     background: #0C0C0C;
     color: rgba(255, 255, 255, 0.25);
-    font-family: "montserrat-light", sans-serif;
+
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
@@ -1587,7 +1585,7 @@ min-height: max-content;
 }
 
 .header-nav h3 {
-    font-family: "montserrat-semibold", sans-serif;
+
     font-size: 11px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -1609,7 +1607,7 @@ min-height: max-content;
 }
 
 .header-nav__list {
-    font-family: "montserrat-regular", sans-serif;
+
     font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
@@ -1869,7 +1867,7 @@ min-height: max-content;
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
-    /* background-image: url("/images/CEIS_img/Hero_1.svg"); */
+    background-image: url("../images/CEIS_img/Hero1920.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -1970,7 +1968,52 @@ min-height: max-content;
     right: 7.2rem;
     bottom: 0;
 }
-
+@media only screen and (max-width: 1500px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero1500.jpg");
+    }
+}
+@media only screen and (max-width: 1200px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero1200.jpg");
+    }
+}
+@media only screen and (max-width: 1000px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero1000.jpg");
+    }
+}
+@media only screen and (max-width: 800px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero800.jpg");
+    }
+}
+@media only screen and (max-width: 700px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero700.jpg");
+    }
+}
+    
+@media only screen and (max-width: 600px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero600.jpg");
+    }
+}
+@media only screen and (max-width: 500px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero500.jpg");
+    }
+}
+@media only screen and (max-width: 450px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero450.jpg");
+    }
+}
+@media only screen and (max-width: 400px){
+    .home-content {
+        background-image: url("../images/CEIS_img/Hero400.jpg");
+    }
+}
 
 /* ------------------------------------------------------------------- 
  * ## home social 
@@ -2340,10 +2383,10 @@ html.no-csstransitions .home-content__main {
     background-color: #F6A862;
     color: #010507;
     position: relative;
-    background-image: url("../images/CEIS_img/03_Problemática_Latam 1.svg");
+    background-image: url("../images/CEIS_img/Problematica1920.jpg");
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: 94% 100%;
+    background-size: 95% 95%;
 }
 .container_why {
     /* padding-left: 20%; */
@@ -2415,13 +2458,19 @@ html.no-csstransitions .home-content__main {
 
 
     @media only screen and (max-width: 1500px){
-
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica1500.jpg");
+        }
     }
     @media only screen and (max-width: 1200px){
-        
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica1200.jpg");
+        }
     }
     @media only screen and (max-width: 1000px){
-        
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica1000.jpg");
+        }
     }
     @media only screen and (max-width: 800px){
         .container_why {
@@ -2466,24 +2515,38 @@ html.no-csstransitions .home-content__main {
         .why_container h2 {
             font-size: 4rem;
         }
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica800.jpg");
+        }
     }
     @media only screen and (max-width: 700px){
-        
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica700.jpg");
+        }
     }
     @media only screen and (max-width: 600px){
-
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica600.jpg");
+        }
     }
     @media only screen and (max-width: 500px){
         .why_container_2 p {
             border-radius: 0;
             padding: 1em;
         }
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica500.jpg");
+        }
     }
     @media only screen and (max-width: 450px){
-        
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica450.jpg");
+        }
     }
     @media only screen and (max-width: 400px){
-        
+        .s-why {
+            background-image: url("../images/CEIS_img/Problematica400.jpg");
+        }
     }
 
 /* ===================================================================
@@ -2959,7 +3022,7 @@ text-align: left;
     position: relative;
     padding-top: 10%;
     padding-bottom: 5%;
-    background-image: url("../images/CEIS_img/10_Donacion_05.svg");
+    background-image: url("../images/CEIS_img/Donacion1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -3028,13 +3091,17 @@ background-color: #F2C39B;
 }
 
 @media only screen and (max-width: 1500px){
-
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion1500.jpg");
+    }
 }
 @media only screen and (max-width: 1200px){
-    
+
 }
 @media only screen and (max-width: 1000px){
-    
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion1000.jpg");
+    }
 }
 @media only screen and (max-width: 800px){
     .works_content_container {
@@ -3042,6 +3109,9 @@ background-color: #F2C39B;
     }
     .marcador.marcador_donaciones{
         top:0;
+    }
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion800.jpg");
     }
 
 }
@@ -3053,22 +3123,35 @@ background-color: #F2C39B;
         margin-left: 0;
         background-color: #CFDFD9;
     }
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion700.jpg");
+    }
 }
 @media only screen and (max-width: 600px){
     .works_content_container {
         max-width: 85%;
+    }
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion600.jpg");
     }
 }
 @media only screen and (max-width: 500px){
     .works_content_container {
         max-width: 95%;
     }
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion500.jpg");
+    }
 }
 @media only screen and (max-width: 450px){
-    
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion450.jpg");
+    }
 }
 @media only screen and (max-width: 400px){
-    
+    .s-works {
+        background-image: url("../images/CEIS_img/Donacion400.jpg");
+    }
 }
 
 /* ------------------------------------------------------------------- 
@@ -4031,7 +4114,7 @@ footer .row {
 
 .footer-logo {
     display: block;
-    margin: -.6rem 0 3.6rem 0;
+    /* margin: -.6rem 0 3.6rem 0; */
     padding: 0;
     outline: 0;
     border: none;
@@ -4117,10 +4200,23 @@ footer .row {
 .footer-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
-.footer-container >div{
-    flex: 50%; margin: 0 auto;
+.footer-container > div {
+    flex: 25%;
+    margin: 0 auto;
+    max-width: max-content;
+}
+
+.footer_button_container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.footer_button_container .works_button:last-of-type{
+    margin:0;
+    margin-top: 1em;
 }
 /* ---------------------------------------------------------------
  * ## footer bottom
